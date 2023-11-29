@@ -1,0 +1,4 @@
+#+TITLE: ChilIR, Chil Intermediate Representation
+
+ChilIR~(Chil Intermediate Representation), pronounced chiller, is an s-expression-based IR for elaborated hardware.
+ChilIR is intended to behave similarly to [[https://github.com/chipsalliance/firrtl][FIRRTL]].
