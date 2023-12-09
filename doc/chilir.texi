@@ -42,6 +42,7 @@ construction intermediate representation/language.
 * Hardware Language::           ChilIR, the language.
 * Optimization::                Optimizing and lowering ChilIR.
 * Code Generation::             Generating other IR HDLs.
+* Other Intermediate Representations:: Other IRs that inspired ChilIR.
 * Contributing::                You can help too!
 @end menu
 
@@ -65,6 +66,17 @@ which uses before lowering to CIRCT.
 
 @node Code Generation
 @chapter Code Generation
+
+@node Other Intermediate Representations
+@chapter Other Intermediate Representations
+@table @samp
+@item FIRRTL
+@url{https://github.com/chipsalliance/firrtl}
+@item CIRCT
+@url{https://circt.llvm.org/}
+@item Calyx IR
+@url{https://github.com/cucapra/calyx}
+@end table
 
 @node Contributing
 @chapter Contributing
