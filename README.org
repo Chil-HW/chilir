@@ -1,4 +1,13 @@
 #+TITLE: ChilIR, Chil Intermediate Representation
 
-ChilIR~(Chil Intermediate Representation), pronounced chiller, is an s-expression-based IR for elaborated hardware.
+ChilIR, Chil Intermediate Representation, (pronounced chiller) is an s-expression-based IR for elaborated hardware.
 ChilIR is intended to behave similarly to [[https://github.com/chipsalliance/firrtl][FIRRTL]].
+
+ChilIR is intended to be integrated with Chil and its simulator.
+
+* Why ChilIR?
+Alternatives exist: FIRRTL & CIRCT.
+Why create another alternative?
+
+Chil is built on top of Lisp, which makes parsing s-expressions trivial compared to the other formats.
+Using s-expressions would simplify the simulator's internals, because Lisp already expects everything as s-expressions.
