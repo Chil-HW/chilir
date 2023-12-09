@@ -35,9 +35,7 @@ Documentation License''.
 @top ChilIR
 
 This document describes ChilIR version @value{VERSION}, a hardware
-construction language and simulator.  ChilIR is inspired by
-@uref{https://github.com/chipsalliance/firrtl, FIRRTL} and
-@uref{https://circt.llvm.org/, CIRCT}.
+construction intermediate representation/language.
 
 @menu
 * Introduction::                What is ChilIR?
@@ -52,8 +50,12 @@ construction language and simulator.  ChilIR is inspired by
 
 @cindex purpose
 ChilIR is intended to be a intermediate language for hardware design,
-similar to @uref{https://github.com/chipsalliance/firrtl, FIRRTL} or
-@uref{https://circt.llvm.org/, CIRCT}.
+similar to @uref{https://github.com/chipsalliance/firrtl, FIRRTL},
+@uref{https://circt.llvm.org/, CIRCT}, or
+@uref{https://github.com/cucapra/calyx, Calyx's} own intermediate
+representation,
+@uref{https://github.com/cucapra/calyx/tree/master/calyx-ir, Calyx IR},
+which uses before lowering to CIRCT.
 
 @node Hardware Language
 @chapter Hardware Language
