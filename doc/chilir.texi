@@ -22,7 +22,7 @@ Documentation License''.
 
 @titlepage
 @title ChilIR Reference Manual
-@subtitle Constructing Hardware in Lisp Language and Simulator
+@subtitle Constructing Hardware in Lisp Intermediate Representation
 @author Raven Hallsby
 
 @insertcopying
